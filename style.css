@@ -1,7 +1,7 @@
 :root {
-  --primary: rgb(196, 119, 52);
-  --secondary: rgb(68, 39, 39);
-  --background: rgb(0, 0, 0);
+  --primary: rgb(141, 33, 218);
+  --secondary: rgb(220, 20, 190);
+  --background: rgb(29, 6, 36);
 }
 
 * {
@@ -51,7 +51,7 @@ input:-webkit-autofill {
 }
 
 .hamburger {
-  display: none; /* enable in media query */
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 25px;
@@ -322,7 +322,7 @@ input:-webkit-autofill {
   inset: 0;
   border-radius: 20px;
   padding: 10px;
-  background: linear-gradient(135deg, #b6895b, #fff0d6);
+  background: linear-gradient(135deg, #8c5bb6, #fff0d6);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
