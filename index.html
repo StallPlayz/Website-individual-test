@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DolcÈ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="logo-navbar">Dol<span>cÈ</span></a>
+
+      <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="spare-navigation">
+        <div class="shopping-cart" id="cartButton">
+          <i data-feather="shopping-cart"></i>
+        </div>
+        <div id="hamburger-menu" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <main class="content">
+        <h1>Taste the <span>Journey.</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+          magnam?
+        </p>
+        <a href="#menu" class="buy">Buy Now</a>
+      </main>
+    </section>
+    <!-- Home -->
+
+    <!-- About -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpg" loading="lazy" alt="About Us" />
+        </div>
+        <div class="content">
+          <h3>Why choose our cafe?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            odit id ratione hic voluptates! Quae saepe sit id adipisci at. Harum
+            obcaecati quisquam veniam exercitationem, cum a ipsam! Nam,
+            necessitatibus?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo culpa,
+            eveniet maxime sapiente rem eligendi nisi repellat facere odit,
+            dolorem tempora! Quaerat, vitae quam dolores incidunt perspiciatis
+            adipisci impedit ipsam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+      <h2>Our <span>Menu</span></h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
+        accusamus?
+      </p>
+      <div class="menu-container">
+        <div class="menu-scroll">
+          <div class="row">
+            <div class="menu-card">
+              <img
+                src="img/menu/menu1.jpeg"
+                alt="Esspresso"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <h3 class="menu-card-title">Espresso</h3>
+              <p class="menu-card-price">IDR 10K</p>
+            </div>
+            <div class="menu-card">
+              <img
+                src="img/menu/menu2.jpeg"
+                alt="Iced Caramel Macchiato Cream"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <h3 class="menu-card-title">Iced Caramel Macchiato Cream</h3>
+              <p class="menu-card-price">IDR 20K</p>
+            </div>
+            <div class="menu-card">
+              <img
+                src="img/menu/menu3.jpeg"
+                alt="Tiramisu Latte"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <h3 class="menu-card-title">Tiramisu Latte</h3>
+              <p class="menu-card-price">IDR 15K</p>
+            </div>
+            <div class="menu-card">
+              <img
+                src="img/menu/menu4.jpeg"
+                alt="Americano"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <h3 class="menu-card-title">Americano</h3>
+              <p class="menu-card-price">IDR 8K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        ut.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.432700911289!2d112.73140327483915!3d-7.30518769270259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb9ef4d7d9ed%3A0x5959ad479fd46d02!2sSMK%20Negeri%201%20Surabaya!5e0!3m2!1sid!2sid!4v1754028080993!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input id="name" type="text" placeholder="nama" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input id="email" type="email" placeholder="email" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="send"></i>
+            <input id="message" type="text" placeholder="pesan" required />
+          </div>
+          <button type="submit" class="btn" id="btnSubmit">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="social">
+        <a href="https://api.whatsapp.com/send?phone=62859183982879"
+          ><i data-feather="message-square"></i
+        ></a>
+        <a href="https://www.instagram.com/stallplayz._.101"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://x.com/stallplayz123"><i data-feather="twitter"></i></a>
+        <a href="https://www.youtube.com/@StallPlayz"
+          ><i data-feather="youtube"></i
+        ></a>
+
+        <div class="credit">
+          <p>Created by <a href="">StallPlayz</a>. | &copy; 2025.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="script.js" defer></script>
+  </body>
+  <script src="https://unpkg.com/feather-icons"></script>
+</html>
