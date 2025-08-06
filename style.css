@@ -278,6 +278,7 @@ input:-webkit-autofill {
 .about .row .about-img img {
   max-width: 60%;
   width: 100%;
+  border-radius: 20%;
 }
 
 .about .row .content {
@@ -370,19 +371,21 @@ input:-webkit-autofill {
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  gap: 5rem;
 }
 
 .contact .row .map {
   flex: 1 1 45rem;
-  width: 100%;
-  object-fit: cover;
+  border-radius: 3%;
 }
 
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
+  border: 1px solid var(--primary);
+  border-radius: 3%;
+  box-shadow: 10px 10px 10px purple;
 }
 
 .contact .row form .input-group {
@@ -400,6 +403,10 @@ input:-webkit-autofill {
   font-size: 1.7rem;
   background: none;
   color: #fff;
+}
+
+.contact .row form span {
+  font-size: 2rem;
 }
 
 .contact .row form .input-group input:-webkit-autofill {
@@ -444,7 +451,7 @@ footer .social a {
 
 footer .social a:hover,
 footer .links a:hover {
-  color: var(--background);
+  color: var(--secondary);
   transition: 0.3s ease;
 }
 
