@@ -90,13 +90,14 @@ input:-webkit-autofill {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 5%;
-  background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid var(--primary);
+  background-color: rgba(1, 1, 1, 0.5);
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.278);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
+  backdrop-filter: blur(3px);
   transition: 0.3s ease-in-out;
 }
 
@@ -170,7 +171,7 @@ input:-webkit-autofill {
   display: flex;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/kopi.jpg");
+    url("/img/lahan_singkong.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -182,7 +183,7 @@ input:-webkit-autofill {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(rgba(29, 6, 36, 0.2), rgba(29, 6, 36, 0.2));
   z-index: 1;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -197,7 +198,7 @@ input:-webkit-autofill {
   bottom: 0;
   background: linear-gradient(
     0deg,
-    rgba(1, 1, 3, 1) 8%,
+    rgb(29, 6, 36) 8%,
     rgba(255, 255, 255, 0) 50%
   );
 }
@@ -275,6 +276,7 @@ input:-webkit-autofill {
 }
 
 .about .row .about-img img {
+  max-width: 60%;
   width: 100%;
 }
 
